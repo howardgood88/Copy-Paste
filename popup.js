@@ -5,6 +5,7 @@ function saveToStorage(value){
 }
 
 function loadFromStorage(){
+
 	function addListenerTo_button_delrow(matches){
 		var matches_td = matches.querySelectorAll("[id]");
 		matches_td.forEach(function(val){
@@ -34,19 +35,21 @@ function loadFromStorage(){
 		var table = document.getElementById("table");
 		table.innerHTML = result;
 
+		//add listener to button copytext and delrow
 		var matches = document.querySelector("tbody");
 		addListenerTo_button_delrow(matches);
 		addListenerTo_button_copytext(matches);
 	});
 }
 
-loadFromStorage();
+loadFromStorage();	//load old table from storage and add listener
 
 document.getElementById('additem').addEventListener('click', () => {
 	var string = document.getElementById("string").value;
 	if (string == ''){
-		return;
+		return;			//detect null string
 	}
+	//insert new row to table
 	var table = document.getElementById("table").insertRow(-1);
 	var col1 = table.insertCell(0);
 	var col2 = table.insertCell(1);
@@ -54,7 +57,7 @@ document.getElementById('additem').addEventListener('click', () => {
 	col1.innerHTML = '<textarea tag="text">'+string+'</textarea>';
 	col2.innerHTML = '<button name="copytext">複製</button>';
 	col3.innerHTML = '<button id="delrow">刪除</button>';
-
+	//save table to storage (mainly for add listenser to button)
 	saveToStorage(document.getElementById("table").innerHTML);
 	loadFromStorage();
 });
