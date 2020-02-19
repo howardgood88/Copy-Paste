@@ -2,8 +2,7 @@
 A Chrome extension for storing and copying text.
 
 ## 安裝
-※目前只在Chrome上測試過  
-※目前還在開發階段，故尚未封裝
+※目前只在Chrome上測試過
 1. 點選Chrome右上角3個點點的按鈕 > 更多工具 > 擴充功能
 1. 點擊左上角「載入未封裝項目」
 1. 選擇此專案資料夾

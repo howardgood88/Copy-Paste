@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 	"name": "Copy Paste",
-	"description": "Record your commonly used word.",
+	"description": "Record your commonly used text.",
 	"version": "1.0",
 	"permissions": ["storage"],
 	"browser_action": {
