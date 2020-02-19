@@ -44,6 +44,9 @@ loadFromStorage();
 
 document.getElementById('additem').addEventListener('click', () => {
 	var string = document.getElementById("string").value;
+	if (string == ''){
+		return;
+	}
 	var table = document.getElementById("table").insertRow(-1);
 	var col1 = table.insertCell(0);
 	var col2 = table.insertCell(1);
