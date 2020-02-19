@@ -17,3 +17,4 @@ A Chrome extension for storing and copying text.
 
 ## 待開發功能
 * 欄位名稱
+* 調整順序
