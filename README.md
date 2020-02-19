@@ -14,3 +14,6 @@ A Chrome extension for storing and copying text.
 * 輸入後按**新增項目**即可保存字串
 * **複製**按鈕可複製該欄字串
 * **刪除**按鈕可刪除該行紀錄
+
+##待開發功能
+* 欄位名稱
