@@ -1,6 +1,6 @@
 # Copy-Paste
 A Chrome extension for storing and copying text.  
-![套件截圖](套件截圖.JPG)
+![套件截圖](./images/套件截圖.JPG)
 
 ## 安裝
 ※目前只在Chrome上測試過
