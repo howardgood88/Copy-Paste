@@ -1,5 +1,5 @@
 # Copy-Paste
-A Chrome extension for storing and copying text.
+A Chrome extension for storing and copying text.  
 ![套件截圖](套件截圖.JPG)
 
 ## 安裝
