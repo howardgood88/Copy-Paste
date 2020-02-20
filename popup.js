@@ -33,6 +33,9 @@ function loadFromStorage(){
 
 	chrome.storage.sync.get(['table'], function(result){
 		var result = result.table;
+		if (result == undefined){
+			return;
+		}
 		var table = document.getElementById("table");
 		table.innerHTML = result;
 
