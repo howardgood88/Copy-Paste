@@ -17,4 +17,4 @@ A Chrome extension for storing and copying text.
 
 ## 待開發功能
 * 拖動調整順序 	(實作有點麻煩，目前以可隨時修改的textarea代替)
-* 群組管理		(想實現的效果同為拖動，故需先實作出上者)
+* 群組管理		(想實現的效果同為拖動，故需先實作出前者)
