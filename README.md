@@ -1,5 +1,6 @@
 # Copy-Paste
 A Chrome extension for storing and copying text.
+![套件截圖](套件截圖.JPG)
 
 ## 安裝
 ※目前只在Chrome上測試過
@@ -15,5 +16,5 @@ A Chrome extension for storing and copying text.
 * **刪除**按鈕可刪除該行紀錄
 
 ## 待開發功能
-* 欄位名稱
-* 調整順序
+* 拖動調整順序 	(實作有點麻煩，目前以可隨時修改的textarea代替)
+* 群組管理		(想實現的效果同為拖動，故需先實作出上者)

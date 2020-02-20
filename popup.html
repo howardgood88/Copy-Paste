@@ -9,23 +9,30 @@
 		<!--CSS-->
 		<style type="text/css">
 			body {
-			margin: 10px;
-			white-space: nowrap;
+				margin: 10px;
+				white-space: nowrap;
 			}
 
 			h1 {
-			font-size: 20px;
+				font-size: 20px;
 			}
 
 			table, th, td {
 				border: 1px solid black;
 				text-align: center;
+				align-items: center;
+				-webkit-user-select: none;
+			}
+
+			textarea {
+				width: 80px;
+				text-align: left;
 			}
 
 			#container {
-				text-align: right;
+				text-align: left;
 				align-items: center;
-				display: flex;
+				-webkit-user-select: none;
 			}
 		</style>
 		<!--CSS End-->
@@ -39,15 +46,17 @@
 
 		<table id="table">
 			<tr>
-				<th width="200px">保存字串</th>
-				<th width="50px"></th>
-				<th width="50px"></th>
+				<th width="80px">名稱</th>
+				<th width="80px">保存字串</th>
+				<th width="40px"></th>
+				<th width="40px"></th>
 			</tr>
 		</table>
 
 		<br>
 		<div id="container">
-			字串：<input type="text" id="string" size="20" name="string">
+			名稱：<input type="text" id="name" size="20"><br>
+			字串：<input type="text" id="string" size="20">
 			<button id="additem">新增項目</button>
 			<script src="./popup.js"></script>
 		</div>
