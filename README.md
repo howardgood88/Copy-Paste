@@ -1,5 +1,6 @@
 # Copy-Paste
 A Chrome extension for storing and copying text.  
+線上商店連結：https://bit.ly/2K8OUq1  
 ![套件截圖](./images/screenshot.png)
 
 ## 安裝
